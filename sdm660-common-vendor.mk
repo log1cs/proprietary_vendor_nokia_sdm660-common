@@ -83,7 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a508_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.b00 \
@@ -153,14 +152,12 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libbccQTI \
     libc2d30_bltlib \
-    libcdsp_default_listener \
-    libcdsprpc \
     libdiag \
     libdisplayconfig.qti \
     libdsutils \
     libfastcrc \
+    libfastcvadsp_stub \
     libfastcvopt \
-    libfastrpc_utf_stub \
     libgcs-calwrapper \
     libgcs-ipc \
     libgcs-osal \
@@ -208,7 +205,6 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libsdmextension \
     libsdsprpc \
-    libsysmon_cdsp_skel \
     libthermalclient \
     libtinyxml2_1 \
     libvpphvx \
@@ -221,6 +217,8 @@ PRODUCT_PACKAGES += \
     libOmxVideoDSMode \
     libUBWC \
     libadpcmdec \
+    libadsp_hvx_callback_skel \
+    libadsp_hvx_stub \
     libmulawdec \
     libscveCommon \
     libscveCommon_stub \
@@ -464,7 +462,6 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor.qti.gnss@4.0-service.xml \
     adsprpcd \
-    cdsprpcd \
     cnd \
     dpmQmiMgr \
     dspservice \
