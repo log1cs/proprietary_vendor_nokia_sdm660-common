@@ -400,7 +400,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@2.0_vendor \
     vendor.qti.imsrtpservice@2.1-service-Impl \
     vendor.qti.imsrtpservice@2.1_vendor \
-    libmmparserextractor \
     camera.sdm660 \
     libMGBeauty \
     libOmxVideoDSMode \
