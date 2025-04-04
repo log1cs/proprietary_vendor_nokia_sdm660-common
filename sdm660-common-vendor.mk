@@ -289,9 +289,6 @@ PRODUCT_PACKAGES += \
     libmdsprpc \
     libminkdescriptor \
     libminksocket \
-    libmmcamera_dbg \
-    libmmcamera_faceproc \
-    libmmcamera_faceproc2 \
     libmmosal_proprietary \
     libnetmgr \
     libnetmgr_common \
@@ -444,12 +441,15 @@ PRODUCT_PACKAGES += \
     libmmcamera2_stats_modules \
     libmmcamera_arcsoftbokeh_lib \
     libmmcamera_csidtg \
+    libmmcamera_dbg \
     libmmcamera_depth_map \
     libmmcamera_dummyalgo \
     libmmcamera_eebinparse \
     libmmcamera_eeprom_util \
     libmmcamera_eztune_module \
     libmmcamera_facedetection_lib \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
     libmmcamera_hdr_gb_lib \
     libmmcamera_hvx_add_constant \
     libmmcamera_hvx_grid_sum \
