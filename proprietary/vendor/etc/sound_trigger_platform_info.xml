@@ -39,7 +39,7 @@
         <param backend_dai_name="SLIMBUS_0_TX" />
     </common_config>
     <acdb_ids>
-        <param DEVICE_HANDSET_MIC_APE="100" />
+        <param DEVICE_HANDSET_MIC_APE="130" />
         <param DEVICE_HANDSET_MIC_CPE="128" />
         <param DEVICE_HANDSET_MIC_ECPP_CPE="128" />
         <param DEVICE_HANDSET_MIC_PP_APE="137" />
@@ -50,7 +50,7 @@
     <!-- configuration. ISV must use their own unique vendor_uuid.          -->
     <sound_model_config>
         <param vendor_uuid="68ab2d40-e860-11e3-95ef-0002a5d5c51b" />
-        <param execution_type="WDSP" /> <!-- value: "WDSP" "ADSP" "DYNAMIC" -->
+        <param execution_type="ADSP" /> <!-- value: "WDSP" "ADSP" "DYNAMIC" -->
         <param app_type="2" /> <!-- app type used in ACDB -->
         <param library="libsmwrapper.so" />
         <param max_cpe_phrases="6" />
